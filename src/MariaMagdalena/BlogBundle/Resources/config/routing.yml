@@ -1,0 +1,25 @@
+mariamagdalenablog_home:
+    path:      /{page}
+    defaults:  { _controller: MariaMagdalenaBlogBundle:Blog:index, page: 1 }
+    requirements:
+        page:  \d*
+        
+mariamagdalenablog_see:
+    path:      /article/{id}
+    defaults:  { _controller: MariaMagdalenaBlogBundle:Blog:see}
+     
+mariamagdalenablog_add:
+    path:      /add
+    defaults:  { _controller: MariaMagdalenaBlogBundle:Blog:add }
+ 
+mariamagdalenablog_edit:
+    path:      /edit/{id}
+    defaults:  { _controller: MariaMagdalenaBlogBundle:Blog:edit }
+    requirements:
+        id:  \d+
+ 
+mariamagdalenablog_delete:
+    path:      /delete/{id}
+    defaults:  { _controller: MariaMagdalenaBlogBundle:Blog:delete }
+    requirements:
+        id:  \d+

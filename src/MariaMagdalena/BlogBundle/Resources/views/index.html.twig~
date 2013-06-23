@@ -1,0 +1,15 @@
+{# src/MariaMagdalena/BlogBundle/Resources/views/Blog/index.html.twig #}
+ 
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Maria Magdalena Blog</title>
+  </head>
+  <body>
+    <h1>Maria Magdalena Blog</h1>
+ 
+    <p>
+	This is the default webpage of the Maria Magdalena band's website {{ page }}.
+    </p>
+  </body>
+</html>

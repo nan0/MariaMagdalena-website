@@ -1,0 +1,8 @@
+maria_magdalena_blog:
+    resource: "@MariaMagdalenaBlogBundle/Resources/config/routing.yml"
+    prefix:   /blog
+
+maria_magdalena_test:
+    resource: "@MariaMagdalenaTestBundle/Resources/config/routing.yml"
+    prefix:   /
+

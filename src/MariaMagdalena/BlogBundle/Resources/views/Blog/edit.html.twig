@@ -1,0 +1,29 @@
+{# src/MariaMagdalena/BlogBundle/Resources/views/Blog/edit.html.twig #}
+
+{% extends "MariaMagdalenaBlogBundle::layout.html.twig" %}
+ 
+{% block title %}
+  Modifier un article - {{ parent() }}
+{% endblock %}
+ 
+{% block sdzblog_body %}
+ 
+  <h2>Modifier un article</h2>
+ 
+  {% include "MariaMagdalenaBlogBundle:Blog:form.html.twig" %}
+ 
+  <p>
+    Vous éditez un article déjà existant,
+    ne le changez pas trop pour éviter
+    aux membres de ne pas comprendre
+    ce qu'il se passe.
+  </p>
+ 
+  <p>
+    <a href="{{ path('mariamagdalenablog_see', {'id': article.id}) }}" class="btn">
+      <i class="icon-chevron-left"></i>
+      Retour à l'article
+    </a>
+  </p>
+ 
+{% endblock %}

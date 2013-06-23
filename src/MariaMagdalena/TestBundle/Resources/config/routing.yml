@@ -1,0 +1,8 @@
+HelloTheWorld:
+    path:     /hello-world
+    defaults: { _controller: MariaMagdalenaTestBundle:Test:index }
+ByeByeTheWorld:
+    path:     /byebye-world
+    defaults: { _controller: MariaMagdalenaTestBundle:Test:byebye }
+    
+

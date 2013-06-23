@@ -1,0 +1,7 @@
+parameters:
+#    maria_magdalena_blog.example.class: MariaMagdalena\BlogBundle\Example
+
+services:
+#    maria_magdalena_blog.example:
+#        class: %maria_magdalena_blog.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

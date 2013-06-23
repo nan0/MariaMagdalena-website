@@ -1,0 +1,15 @@
+{# src/Sdz/BlogBundle/Resources/views/Blog/byebye.html.twig #}
+ 
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Aurevoir !</title>
+  </head>
+  <body>
+    <h1>Aurevoir {{ nom }} !</h1>
+ 
+    <p>
+	Tu est {{ sexe }} et tu mesures {{ taille }}, mais tu est un connard parceque tu te casses ! 
+    </p>
+  </body>
+</html>
